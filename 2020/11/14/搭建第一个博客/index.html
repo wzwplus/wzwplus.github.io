@@ -16,7 +16,7 @@
 <meta property="og:description" content="GitHub+Hexo+Node.js搭建自己的博客首先在Github上 创建个人账号 新建仓库，命名为用户名+github.io 在仓库的设置中找到GitHub Pages，设置source和Theme Chooser 之后可以在https:&#x2F;&#x2F;xxx.github.oi&#x2F;上打开自己的博客  在Node.js上安装node.js 在Hexo上（除了Hexo还可以尝试jeklly）  新建文件夹存">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-11-14T09:23:39.000Z">
-<meta property="article:modified_time" content="2020-11-15T06:27:07.954Z">
+<meta property="article:modified_time" content="2020-11-15T07:17:49.226Z">
 <meta property="article:author" content="哈娜">
 <meta property="article:tag" content="生活奖赏勇敢的人">
 <meta name="twitter:card" content="summary">
@@ -175,18 +175,26 @@
 <h3 id="在Hexo上"><a href="#在Hexo上" class="headerlink" title="在Hexo上"></a>在Hexo上</h3><p>（除了Hexo还可以尝试jeklly）</p>
 <ol>
 <li>新建文件夹存放博客相关</li>
-<li>git bash <code>npm install -g hexo-cli</code>安装hexo</li>
+<li>命令行 <code>npm install -g hexo-cli</code>安装hexo</li>
+<li>在新建的文件夹中执行命令<code>hexo init</code></li>
+<li>在_config.yml中修改信息（信息以及deploy的github信息）</li>
+<li>主题选择的时yilia，在config中做相应的修改</li>
+<li>对theme/yilia中的config文件按需修改。</li>
 </ol>
 <a id="more"></a>
 
 <h3 id="问题记录"><a href="#问题记录" class="headerlink" title="问题记录"></a>问题记录</h3><ul>
-<li><p>clone时提示<code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code></p>
+<li><p>clone时报错（现在还没解决）</p>
 <p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/qianshouxiuluo/p/11662616.html">https://www.cnblogs.com/qianshouxiuluo/p/11662616.html</a></p>
 </li>
 <li><p>Hexo中插入图片</p>
 <p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/890a46aa52aa">https://www.jianshu.com/p/890a46aa52aa</a></p>
 </li>
 <li><p>刚开始头像下面不显示名字，要在yilia的config文件中添加author标签</p>
+</li>
+<li><p>记录：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E4%B8%8A%E4%BC%A0%E5%88%B0github">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html#%E4%B8%8A%E4%BC%A0%E5%88%B0github</a></p>
+</li>
+<li><p>有时间做评论功能以及新建网页</p>
 </li>
 </ul>
 
@@ -261,6 +269,15 @@
   
 <nav id="article-nav">
   
+    <a href="/2021/04/07/Openface%E4%BD%BF%E7%94%A8/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Openface使用
+        
+      </div>
+    </a>
+  
   
     <a href="/2020/11/14/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
       <div class="article-nav-title">Hello World</div>
@@ -319,7 +336,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2020 哈娜
+    		&copy; 2021 哈娜
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -396,6 +413,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">技术</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>

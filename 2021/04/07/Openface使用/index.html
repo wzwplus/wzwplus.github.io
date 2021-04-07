@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives: 2020 | 哈娜的博客</title>
+  <title>Openface使用 | 哈娜的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Personal Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="哈娜的博客">
-<meta property="og:url" content="http://example.com/archives/2020/index.html">
+  <meta name="description" content="Openface安装 解压 &#x2F;packages&#x2F;Openface-master-all.zip 进入 Openface-all 文件夹 解压 Openface-master.zip 将3.4.0.zip（OpenCV安装包）移动到 OpenFace-master 文件夹中 将 *.dat 移动到OpenFace-master&#x2F;lib&#x2F;local&#x2F;LandmarkDetector&#x2F;model&#x2F;pat">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Openface使用">
+<meta property="og:url" content="http://example.com/2021/04/07/Openface%E4%BD%BF%E7%94%A8/index.html">
 <meta property="og:site_name" content="哈娜的博客">
-<meta property="og:description" content="Personal Blog">
+<meta property="og:description" content="Openface安装 解压 &#x2F;packages&#x2F;Openface-master-all.zip 进入 Openface-all 文件夹 解压 Openface-master.zip 将3.4.0.zip（OpenCV安装包）移动到 OpenFace-master 文件夹中 将 *.dat 移动到OpenFace-master&#x2F;lib&#x2F;local&#x2F;LandmarkDetector&#x2F;model&#x2F;pat">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-04-07T03:02:42.000Z">
+<meta property="article:modified_time" content="2021-04-07T03:11:39.840Z">
 <meta property="article:author" content="哈娜">
-<meta property="article:tag" content="生活奖赏勇敢的人">
+<meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="哈娜的博客" type="application/atom+xml">
@@ -143,76 +145,184 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Openface使用" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/11/14/%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2020-11-14T09:23:39.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-14</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/11/14/%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/">搭建第一个博客</a>
+    <h1 class="article-title" itemprop="name">
+      Openface使用
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/11/14/hello-world/" class="archive-article-date">
-  	<time datetime="2020-11-14T09:10:06.033Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-14</time>
+        
+        <a href="/2021/04/07/Openface%E4%BD%BF%E7%94%A8/" class="archive-article-date">
+  	<time datetime="2021-04-07T03:02:42.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-04-07</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/11/14/hello-world/">Hello World</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="Openface安装"><a href="#Openface安装" class="headerlink" title="Openface安装"></a>Openface安装</h3><ol>
+<li>解压 /packages/Openface-master-all.zip</li>
+<li>进入 Openface-all 文件夹</li>
+<li>解压 Openface-master.zip</li>
+<li>将3.4.0.zip（OpenCV安装包）移动到 OpenFace-master 文件夹中</li>
+<li>将 *.dat 移动到<code>OpenFace-master/lib/local/LandmarkDetector/model/patch_experts/</code>中（按照<code>download_modules.sh</code>中说明的位置）</li>
+<li>进入 Openface-master 文件夹</li>
+<li>解压 3.4.0.zip</li>
+<li>将<code>install.sh</code>里下载并解压Opencv3.4.0的语句(wegt，unzip)注释掉</li>
+<li>运行 <code>./install.sh</code></li>
+</ol>
+<h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><ul>
+<li>可执行文件在/build/bin中</li>
+<li>WIKI文档：<a target="_blank" rel="noopener" href="https://github.com/TadasBaltrusaitis/OpenFace/wiki">https://github.com/TadasBaltrusaitis/OpenFace/wiki</a></li>
+</ul>
+<h3 id="Openface提取特征"><a href="#Openface提取特征" class="headerlink" title="Openface提取特征"></a>Openface提取特征</h3><p>在目录<code>build/bin</code>中，使用命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;FeatureExtraction -f &quot;C:\my videos\video1.avi&quot; -f &quot;C:\my videos\video2.avi&quot; -f &quot;C:\my videos\video3.avi&quot;</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
-          
+<p>这将在与featureextract或FaceLandmarkVidMulti相同的目录(工作目录)中创建一个“processed”目录，该目录将包含已处理的特性。</p>
+<p>如果视频中有多个人，使用：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.&#x2F;FaceLandmarkVidMulti -f &quot;C:\my videos\video.avi&quot;</span><br></pre></td></tr></table></figure>
 
+<h3 id="FeatureExtraction-参数"><a href="#FeatureExtraction-参数" class="headerlink" title="FeatureExtraction 参数"></a>FeatureExtraction 参数</h3><p>（1）输入参数<br>**-f &lt; filename &gt;** ：输入的视频文件，可以指定多个 -f；<br>**-fdir &lt; directory &gt;** ：对目录中的每个图像（.jpg，.jpeg，.png和.bmp）运行特征提取（输出将存储在整个目录的单个文件中）；<br>**-device &lt; device id &gt;<strong>： 网络摄像头的设备ID，用于从实时Feed中提取特征；<br>**-cam_width</strong> ：输入的摄像头分辨率（默认为640），仅在设置了设备的情况下有效；<br>**-cam_height** ：输入的网络摄像头高度分辨率（默认为480），仅在设置了设备时有效；<br>**-root &lt; dir &gt;<strong>： 输入的根；<br>**-inroot &lt; dir &gt;**： 输入的根；<br>**-au_static</strong>：如果指定了此标志，则将在静态图像而非视频上执行AU预测，请参见此处以获取更详细的说明，这是FaceLandmarkVidMulti的默认行为；</p>
+<p>（2）输出参数（有关输出格式的更多详细信息，请参见<a target="_blank" rel="noopener" href="https://github.com/TadasBaltrusaitis/OpenFace/wiki/Output-Format#featureextraction">此处</a>）<br>**-out_dir &lt; dir &gt;** ：与创建输出文件相关的根目录；<br>**-of &lt; filename &gt;**：输出的文件名（如果未指定，将使用原始文件名，如果使用，则使用目录名；如果使用-fdir网络摄像头，则使用网络摄像头+时间戳）；<br>**-oc &lt; FOURCC_CODE &gt;**：输出的视频文件的编解码器（FOURCC的代码列表可以在这里找到- <a target="_blank" rel="noopener" href="https://www.fourcc.org/codecs.php%EF%BC%89%EF%BC%9B">https://www.fourcc.org/codecs.php）；</a></p>
+<p>（3）输出的附加参数（适用于FaceLandmarkImg和FeatureExtraction）<br>**-verbose** 实时可视化处理步骤：具有注视，动作单元，相似性对齐的面部和HOG功能（默认情况下不可视）的跟踪面部，此标记将所有这些功能都打开，在标记下方允许进行更细粒度的控制，可视化这些输出将可能极大地降低处理速度；<br>**-vis-track** 可视化跟踪的脸；<br>**-vis-hog** 可视化HOG功能；<br>**-vis-align** 可视化相似对齐的面孔；<br>**-vis-aus** 可视化行动单位；<br>**-simscale &lt; float &gt;** 用于相似度对齐的脸部比例（默认0.7）；<br>**-simsize &lt; int &gt;** 对齐相似性时图像的宽度和高度（以像素为单位）（默认为112）；<br>**-format_aligned &lt; format &gt;** 对齐面的输出图像格式（例如png或jpg），OpenCV支持的任何格式；<br>**-format_vis_image &lt; format &gt;<strong>可视化图像的输出图像格式（例如png或jpg），OpenCV支持的任何格式，仅适用于FaceLandmarkImg；<br>**-nomask</strong> 强制对齐的面部输出图像不被遮罩；<br>**-g** 输出图像应为灰度（以节省空间）;<br>  默认情况下，可执行文件将输出所有功能（跟踪的视频，HOG文件，相似性对齐的图像以及具有特征，动作单位和注视的.csv文件）。您可能并不总是希望提取所有输出功能，可以使用以下标志指定所需的输出：<br>**-2Dfp** 以像素为单位输出2D界标；<br>**-3Dfp** 以毫米为单位输出3D特征；<br>**-pdmparams** 输出刚性和非刚性形状参数；<br>**-pose** 输出头姿势（位置和旋转）；<br>**-aus** 输出面部动作单元；<br>**-gaze** 输出注视和相关特征（眼睛界标的2D和3D位置）；<br>**-hogalign** 输出提取的HOG特征文件；<br>**-simalign** 输出被跟踪人脸的相似度对齐图像；<br>**-nobadaligned** 如果输出相似对齐的图像，请勿从检测失败或不可靠的帧中输出（从而节省一些磁盘空间）；<br>**-tracked** 输出具有检测到的特征的视频；</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/bj233/article/details/113737268">参考网址</a></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">技术</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2021/04/07/Openface%E4%BD%BF%E7%94%A8/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2020/11/14/%E6%90%AD%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">搭建第一个博客</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Openface%E5%AE%89%E8%A3%85"><span class="toc-number">1.</span> <span class="toc-text">Openface安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8"><span class="toc-number">2.</span> <span class="toc-text">使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Openface%E6%8F%90%E5%8F%96%E7%89%B9%E5%BE%81"><span class="toc-number">3.</span> <span class="toc-text">Openface提取特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#FeatureExtraction-%E5%8F%82%E6%95%B0"><span class="toc-number">4.</span> <span class="toc-text">FeatureExtraction 参数</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -235,8 +345,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: true,
